@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: grey;
+  margin-bottom: 40px;
+}
+
+#logo-font-size { 
+  font-size: 30px;
+  color: rgb(32, 29, 29); 
+}
+
+#navbarNav {  margin-block: 15px; }
+
+.navbar-nav li:hover {
+  background-color: white;
+  color: gray;
+}
+
+.our-menu-title h2 { text-align: center; }
+.our-menu-title { padding-block: 10px; }
+
+#box-colors {
+  background-color: gray;
+  padding: 10px;
+  margin-block: 10px;
+}
+
+#box-colors h4 { text-align: center; }
+
