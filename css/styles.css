@@ -7,20 +7,25 @@
 header {
   background-color: grey;
   margin-bottom: 40px;
+  padding-bottom: 0px;
 }
+
+#header-padding { padding-bottom: 0px; }
 
 #logo-font-size { 
   font-size: 30px;
   color: rgb(32, 29, 29); 
 }
 
-#navbarNav {  margin-block: 15px; }
+#navbarNav {  margin-top: 15px; }
 
-.navbar-nav li:hover {
-  background-color: white;
-  color: gray;
+.navbar-nav li { 
+  border-block: 1px groove black;
+  text-align: center; 
 }
 
+.navbar-nav li:hover { background-color: rgb(59, 46, 46); }
+.navbar-nav li a:hover { color: white; }
 .our-menu-title h2 { text-align: center; }
 .our-menu-title { padding-block: 10px; }
 
